@@ -2,13 +2,8 @@
 
 using namespace std;
 
-int multi (int a, int b){
-   return a*b;
-   
-}
-
-int main (){
-    int num1;
+void multi (){
+     int num1;
      int num2;
 
     cout << "primer numero a multiplicar" << endl; 
@@ -16,6 +11,13 @@ int main (){
     cout << "segundo numero a multiplicar" << endl; 
     cin >> num2;
     
-    cout << "el resultado de la multiplicacion es:" << multi (num1,num2) << endl; 
+    cout << "el resultado de la multiplicacion es:" << num1 * num2 << endl; 
+  
+   
+}
+
+int main (){
+   
+    multi();   
     return 0;
 }
